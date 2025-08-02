@@ -1,30 +1,7 @@
 "use client"
 import { ArrowUpRight } from "lucide-react"
-import subzicentervideo from './assets/subzicenter.mp4'
-import brieflyvideo from './assets/briefly.mp4'
 
-const projects = [
-  {
-    id: 1,
-    title: "Subzi Center",
-    description:
-      "A full-stack web application built with React where users can signup and rate their personal experience with popular Indian vegetables. This project helped me learn React and Firebase data systems.",
-    mediaType: "video",
-    mediaSrc: subzicentervideo, // Replace with your video
-    isApp: false,
-    tags: ["React", "Firebase", "Full-Stack"],
-  },
-  {
-    id: 2,
-    title: "Briefly",
-    description:
-      "A communication app designed to help effective collaboration, built using React and Firebase. Features themes, beautiful UI, emoji keyboard, and content filtering.",
-    mediaType: "video",
-    mediaSrc: "/placeholder.svg?height=500&width=300", // Replace with your video
-    isApp: false,
-    tags: ["React", "Firebase", "Communication"],
-  },
-]
+
 
 function ProjectCard({ title, description, mediaType, mediaSrc, isApp, tags }) {
   return (
