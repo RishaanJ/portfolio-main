@@ -1,4 +1,4 @@
-import headshot from "./assets/headshot.png";
+import headshot from "./assets/headshot.jpg";
 import './App.css';
 import Popup from './Popup'
 import library from './assets/library.png'
